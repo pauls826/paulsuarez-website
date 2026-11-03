@@ -194,8 +194,8 @@ footer b{color:var(--ink)}
 
 /* ---- section bands & dividers ---- */
 :root{--band:#DCE6F5}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--band:#1A2338}}
-:root[data-theme="dark"]{--band:#1A2338}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--band:#233256}}
+:root[data-theme="dark"]{--band:#233256}
 section.band{background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax);margin-block:8px}
 section.band .eyebrow{color:var(--teal)}
 .prose h2{padding-top:28px;margin-top:14px;border-top:2px dashed var(--line)}
